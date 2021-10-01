@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>  
+  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="./dashboard.css" >
+ 
+
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets1/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets1/img/favicon.png">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
+
+
+
+
+       
+
+
+
+
+
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="../assets1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets1/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="../assets1/demo/demo.css" rel="stylesheet" />
+
+
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  
+
+
+
+  
+    
+    
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+  
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    
+    <title>Document</title>
+    <style>
+      .color-white {
+        color: #fff;
+      }
+    </style>
+</head>
+
+
+<body >
+    <div class="row">
+
+
+
+        <div class="col-sm-3" style="background-color:#4684c6
+        ;">
+        
+        <div style="text-align: center; padding: 30px ;" >
+        <img src="/xgrid_logo.jpg">
+        </div>
+
+        <Div style="background-color: gainsboro; height: 1px;"></Div>
+
+        <div style="margin-top: 30px;" class="accordion">
+          
+          
+
+          <ul>
+            <li class="pagenav">
+              <h4 class="far fa-window-maximize">
+              <a class="p-5" href="#">DashBoard</a> 
+              <i  class="fa fa-angle-down mx-5"></i>
+            </h4>
+              
+              <ul>
+                <li class="page_item"><a href="#">First li</a></li>
+                <li class="page_item"><a href="#">Second li</a></li>
+                <li class="page_item"><a href="#">Third li</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+
+
+
+
+          <ul>
+            <li class="pagenav">
+              <h4 class="far fa-file-alt"> <a  class="p-5" href="#">Pages</a> <i class="fa fa-angle-down mx-5"></i></h4>
+            
+              <ul>
+                <li class="page_item"><a href="#">First li</a></li>
+                <li class="page_item"><a href="#">Second li</a></li>
+                <li class="page_item"><a href="#">Third li</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+
+
+
+          <ul>
+            <li class="pagenav">
+              <h4 class="far fa-file-alt"> <a class="p-5" href="#">Forms</a> <i class="color-white fa fa-angle-down mx-5"></i></h4>
+              <ul>
+                <li class="page_item"><a href="#">First li</a></li>
+                <li class="page_item"><a href="#">Second li</a></li>
+                <li class="page_item"><a href="#">Third li</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+
+
+
+          <ul>
+            <li class="pagenav">
+              <h4 class="far fa-file-alt"> <a class="p-5" href="#">Tables</a> <i class="fa fa-angle-down mx-5"></i></h4>
+              <ul>
+                <li class="page_item"><a href="#">First li</a></li>
+                <li class="page_item"><a href="#">Second li</a></li>
+                <li class="page_item"><a href="#">Third li</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+
+
+
+
+
+
+          
+          <ul>
+            <li class="pagenav">
+            
+              
+              <h4 class="far fa-file-alt"> <a class="p-5" href="#">Components</a> <i class="fa fa-angle-down mx-5"></i> </h4>
+            
+              <ul>
+                <li class="page_item"><a href="#">First li</a></li>
+                <li class="page_item"><a href="#">Second li</a></li>
+                <li class="page_item"><a href="#">Third li</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        
+        </div>
+        
+        
+        
+        </div>
+        
+
+        
+
+
+
+
+
+
+
+
+
+        
+        
+        <div class="col-sm-9" >
+    
+            <!-- <div>
+                <h2 class="py-5">DASHBOARD</h2>
+            </div> -->
+
+            
+
+            <nav style="display: flex;">
+              <h4 class="logo"> Dashboard </h4>
+              <!-- <div class="icon" id="bell"> <img src="https://i.imgur.com/AC7dgLA.png" alt=""> </div> -->
+              <div  class="icon" id="bell"> <i style="font-size: 30px;" class=" icon-big fas fa-bell"></i> </div>
+              
+              
+              <div class="notifications" id="box">
+                  <h2>Notifications - <span>2</span></h2>
+                  <div class="notifications-item"> <img src="/down-arrow.svg" alt="img">
+                      <div class="text">
+                          <h4>Samso aliao</h4>
+                          <p>Samso Nagaro Like your home work</p>
+                      </div>
+                  </div>
+                  <div class="notifications-item"> <img src="https://img.icons8.com/flat_round/64/000000/vote-badge.png" alt="img">
+                      <div class="text">
+                          <h4>John Silvester</h4>
+                          <p>+20 vista badge earned</p>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+
+
+
+
+
+
+
+
+
+
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                  <div style="border-radius: 10px;" class="card card-stats">
+
+                    <div class="card-body ">
+                      <div class="row">
+                        
+                        <div class="col-7 col-md-8">
+                          <div class="numbers text-left">
+                            <p class="card-category">Total Task</p>
+                            <h2 style="font-size: 30px;" class="card-title  text-success"> 49/50</h2>
+                          </div>
+                        </div>
+
+                        <div class="col-5 col-md-4 ">
+                          
+                            <i  class="icon_style  fas fa-hourglass "></i>
+                          </div>
+
+                      </div>
+                    </div>
+
+                    <div class="card-footer text-right mx-5 ">
+                      <hr>
+                      <div class="stats text-primary">
+                        <i class="fa fa-plus "></i>
+                       Add task
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+        
+        
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div style="border-radius: 10px;" class="card card-stats">
+  
+                      <div class="card-body ">
+                        <div class="row">
+                          
+                          <div class="col-7 col-md-8">
+                            <div class="numbers text-left">
+                              <p class="card-category">Online Users</p>
+                              <h2 style="font-size: 30px;" class="card-title text-primary"> 49/50</h2>
+                            </div>
+                          </div>
+  
+                          <div class="col-5 col-md-4 ">
+                              
+                                <i  class="icon_style  fas fa-chart-bar "></i>
+                              
+                            </div>
+  
+                        </div>
+                      </div>
+  
+                      <div class="card-footer text-right mx-5 ">
+                        <hr>
+                        <div class="stats text-primary">
+                          <i class="fa fa-plus  "></i>
+                         Add task
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+        
+        
+                  <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div style="border-radius: 10px;" class="card card-stats">
+  
+                      <div class="card-body ">
+                        <div class="row">
+                          
+                          <div class="col-7 col-md-8">
+                            <div class="numbers text-left">
+                              <p class="card-category ">Total Stories</p>
+                              <h2  style="font-size: 30px;" class="card-title text-warning "> 49/50</h2>
+                            </div>
+                          </div>
+  
+                          <div class="col-5 col-md-4 ">
+                              <i  class="icon_style  fas fa-home "></i>
+                            </div>
+  
+                        </div>
+                      </div>
+  
+                      <div class="card-footer text-right mx-5 ">
+                        <hr>
+                        <div class="stats text-primary">
+                          <i class="fa fa-plus "></i>
+                         Add task
+                        </div>
+                      </div>
+  
+                    </div>
+                  </div>
+
+
+
+
+
+
+                 <div>   <!-- tables div starts here -->
+
+
+
+                  <div class="col-md-6">
+
+                  <div class="card mb-3" style="border-radius: 10px;">
+                    <div style="display: flex;">
+                    <div style="display: flex;"  class=" col-sm-6 card-header ">
+
+                     
+                      <i  class="icon_style  fas fa-home "></i>
+
+                      <div style="padding-left: 20px;">
+
+                        <h1> Store </h1>
+                        <p>
+                          <span style="color:green ; font-size: 20px;">680</span>
+                           total stores registered</p>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6 ">
+                      <div class="form-group pull-right my-lg-5">
+                        <input type="text" id="myInput" class=" form-control form-control-lg " placeholder="Search" onKeyUp='search("myInput", "myTable")'/>
+
+                    </div>
+                    <span class="counter pull-right  my-lg-5"></span>
+                    </div>
+                  </div>
+
+
+                    <div class="card-body">
+                      <div class="table-responsive">
+
+                        <table id="myTable" class="table table-hover table-striped table-bordered results" cellspacing="0" width="100%"> 
+
+                          <thead>  
+                              <tr>  
+                                  <th onclick='sortTableFromHeader(0, "myTable")'  > Store Name</th>  
+                                  <th onclick='sortTableFromHeader(1, "myTable")'> Total Task </th>  
+                                  <th onclick='sortTableFromHeader(2, "myTable")'> Total Users </th>  
+                              </tr>  
+                          </thead>  
+                          <tbody>  
+                      <tr> 
+                         
+                                  <td onclick='show(1);'>JMetro</td>  
+                                  <td> 15 </td>  
+                                  <td> 10 </td>  
+                              </tr>  
+                              <tr>  
+                                  <td onclick='show(2);'> Readings </td>  
+                                  <td> 50 </td>  
+                                  <td> 30 </td>  
+                              </tr>  
+                              <tr>  
+                                  <td onclick='show(3);'> Liberty </td>  
+                                  <td> 20 </td>  
+                                  <td> 30 </td>  
+                              </tr>  
+                              <tr>  
+                                  <td onclick='show(4);'> Xgrid </td>  
+                                  <td> 60 </td>  
+                                  <td> 11 </td>  
+                              </tr>  
+                          <tr>  
+                                  <td onclick='show(5);'> Punjab </td>  
+                                  <td> 25 </td>  
+                                  <td> 10 </td>  
+                              </tr>  
+                          <tr>  
+                                  <td onclick='show(6);'> Alfateh </td>  
+                                  <td> 30 </td>  
+                                  <td> 20 </td>  
+                              </tr>  
+                          
+                          </tbody>  
+                      </table>          
+                    </div>
+                       
+                  </div>
+                
+
+
+        
+        </div>
+
+      </div>
+
+      <!-- Second table -->
+
+      <div class="col-md-6" >
+      <div class="card mb-3" style="border-radius: 10px;">
+        
+    
+        
+          <div style="display: flex;">
+            <div style="display: flex;"  class=" col-sm-6 card-header ">
+
+              
+              <i  class="icon_style  fas fa-home "></i>
+
+              <div style="padding-left: 20px;">
+
+                <h1> Users </h1>
+                <p>
+                  <span style="color:green ; font-size: 20px;">290</span>
+                   total users registered</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6 ">
+              <div class="form-group pull-right my-lg-5">
+        <input type="text" id="myInput2" class="form-control form-control-lg " placeholder="Search" onKeyUp='search("myInput2", "dummy_data")'/>
+            </div>
+            <span class="counter1 pull-right  my-lg-5"></span>
+            </div>
+            
+            </div>
+
+
+          <div class="card-body">
+          <div id="dummy_data"  class=" table-responsive"> </div>
+          </div>
+      
+      
+         </div>
+         </div>
+
+    </div>    <!-- tables div end here -->
+
+   <div>
+    
+    <div class="wrapper">
+      <h1 class="pull-left">Assigned Tasks</h1>
+    <canvas style="background-color: whitesmoke; border-radius: 10px;" id="myChart4"></canvas>
+    </div>
+
+   </div>
+      
+    
+
+
+
+      
+      
+
+        
+      </div>
+    
+
+
+
+
+
+
+
+</body>
+
+<script type="text/javascript" src="dashboard.js"></script>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
